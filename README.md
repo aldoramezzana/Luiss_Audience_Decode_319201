@@ -18,13 +18,25 @@ Methodology:
 5) Dimensionally reduction unsing PCA
 6) Clustering users with KMeans to uncover distinct profiles
 
-Key Finding
+Results
 
-The results show that engagement level is the main factor distinguishing users.
-Several cluser emerge, ranging from occasional viewers to highly engaged power users, each with different rating habits and interaction patterns.
-These cluster provide a meaningful way to segment users and better understand how different types of audience consume movies.
+The clustering analysis revealed four distinct user profiles, primarily differentiated by engagement intensity and rating behavior:
 
-Limitations and future work
+- Low-activity users with few ratings and lower average scores  
+- Moderate users with balanced engagement and stable ratings  
+- Highly engaged users who rate many movies and show consistent preferences  
+- Extreme users characterized by very high activity and a wide rating range  
+
+A PCA projection of the clustered users highlights clear structural differences between these groups.
+
+Conclusions
+
+The analysis shows that user engagement level is the dominant factor shaping audience structure.  
+Users who interact more frequently with the platform tend to display more stable and expressive rating behavior, while low-activity users exhibit higher variability.
+
+This unsupervised segmentation provides a meaningful abstraction of audience behavior that can be leveraged for personalization and strategic decision-making.
+
+Limitations and Future Work
 
 This analysis is based on a limited set of user-level features and on KMeans,
 which assumes spherical clusters and may not capture more complex structures in
