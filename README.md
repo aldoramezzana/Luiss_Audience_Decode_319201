@@ -29,6 +29,20 @@ The clustering analysis revealed four distinct user profiles, primarily differen
 
 A PCA projection of the clustered users highlights clear structural differences between these groups.
 
+The elbow method was used to identify a reasonable number of clusters by
+analyzing the within-cluster sum of squares for different values of k.
+The curve suggests that k = 4 represents a good trade-off between
+model complexity and explanatory power.
+
+![Elbow Method](images/elbow_method.png)
+
+To visualize the clustering structure, user profiles were projected onto
+a two-dimensional space using Principal Component Analysis (PCA).
+The resulting plot highlights a clear separation between the identified clusters.
+
+![PCA Clusters](images/pca_clusters.png)
+
+
 Conclusions
 
 The analysis shows that user engagement level is the dominant factor shaping audience structure.  
